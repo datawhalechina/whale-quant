@@ -4,7 +4,7 @@
 ## 使用说明
 
 ### 在线阅读地址
-docsify
+[WhaleQuant](https://2951121599.github.io/WhaleQuant/)
 
 ## Notebook运行环境配置
 1. Python版本  
