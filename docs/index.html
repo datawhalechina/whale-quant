@@ -14,10 +14,66 @@
     window.$docsify = {
       name: 'WhaleQuant',
       repo: 'https://github.com/2951121599/WhaleQuant',
-      loadSidebar: true,
+
+      loadSidebar: true,  // 加载侧边栏
+      auto2top: true,  // 当路由改变时，滚动到屏幕顶部
+      sidebarDisplayLevel: 1,  // 侧边栏展示等级
+      subMaxLevel: 2,  // 侧边栏显示最大等级
+
+      pagination: {
+          previousText: '上一章节',  // 上一个标签的文本
+          nextText: '下一章节', // 下一个标签的文本
+          crossChapter: true,  // 允许导航到上一章/下一章
+          crossChapterText: true,  // 显示章节名称
+      },
+
+      search: {
+          placeholder: '搜索',
+          noData: '找不到结果！',
+      },
+      
+      count:{
+          countable: true,  // 是否显示阅读量
+          position: 'top',  // 设置展示位置
+          margin: '10px',  // 设置距离上下边距
+          float: 'right',  // 设置元素对齐
+          fontsize:'0.9em',  // 设置字体大小
+          color:'rgb(90,90,90)',  // 设置字体颜色
+          language:'chinese',  // 设置语言
+          isExpected: true  // 是否显示预计阅读时长
+      },
+
+      copyCode: {
+        buttonText : 'Copy to clipboard',
+        errorText  : 'Error',
+        successText: 'Copied'
+  }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- sidebar collapse -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@latest/dist/docsify-sidebar-collapse.min.js"></script>
+  
+  <!-- search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.js"></script>
+
+  <!-- count -->
+  <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+
+  <!-- pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- LaTex -->
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+
+  <!-- copy-code -->
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+
+
 </body>
 </html>
