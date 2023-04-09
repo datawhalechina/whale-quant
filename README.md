@@ -43,10 +43,19 @@
 
 ## 项目结构
 <pre>
-docs-----------------------------------------------章节内容markdown格式
-images-----------------------------------------------引用图片
-notebook-------------------------------------------章节内容JupyterNotebook格式以及其它内容
-requirements.txt-----------------------------------运行环境依赖包
+
+├── README.md（项目介绍文件）
+├── docs（docsify在线文档内容）
+│   ├── ch01（章节编号）
+│   │   ├── ch01.md（章节内容，由notebook转为markdown格式）
+│   │   └── images（章节图片）
+├── notebook（notebook内容）
+│   └── ch01（章节编号）
+│       ├── ch01.ipynb（章节内容，统一编写为notebook格式）
+│       └── images（章节图片）
+├── requirements.txt（运行环境依赖包）
+└── resources（README引用资源）
+    └── qrcode.jpeg
 </pre>
 
 ## 致谢
