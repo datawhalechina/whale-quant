@@ -45,12 +45,16 @@
 
 ├── README.md（项目介绍文件）
 ├── docs（docsify在线文档内容）
+│   ├── README.md（docsify在线文档首页）
 │   ├── ch01（章节编号）
 │   │   ├── ch01.md（章节内容，由notebook转为markdown格式）
+│   └── images（章节图片）
+│       ├── ch01
 ├── notebook（notebook内容）
 │   └── ch01（章节编号）
 │       ├── ch01.ipynb（章节内容，统一编写为notebook格式）
-│       └── images（章节图片）
+│   └── images（章节图片）
+│       ├── ch01
 ├── requirements.txt（运行环境依赖包）
 └── resources（README引用资源）
     └── qrcode.jpeg
@@ -68,7 +72,7 @@
 
 <div align=center>
 <p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="images/qrcode.jpeg" width = "180" height = "180">
+<img src="resources/qrcode.jpeg" width = "180" height = "180">
 </div>
 &emsp;&emsp;Datawhale，一个专注于AI领域的学习圈子。初衷是for the learner，和学习者一起成长。目前加入学习社群的人数已经数千人，组织了机器学习，深度学习，数据分析，数据挖掘，爬虫，编程，统计学，Mysql，数据竞赛等多个领域的内容学习，微信搜索公众号Datawhale可以加入我们。
 
