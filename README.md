@@ -48,8 +48,6 @@
 │   ├── README.md（docsify在线文档首页）
 │   ├── ch01（章节编号）
 │   │   ├── ch01.md（章节内容，由notebook转为markdown格式）
-│   └── images（章节图片）
-│       ├── ch01
 ├── notebook（notebook内容）
 │   └── ch01（章节编号）
 │       ├── ch01.ipynb（章节内容，统一编写为notebook格式）
