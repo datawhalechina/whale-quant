@@ -60,6 +60,10 @@ requirements.txt-----------------------------------运行环境依赖包
 
 ## 参考文献
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=datawhalechina/whale-quant&type=Date)](https://star-history.com/#datawhalechina/whale-quant&Date)
+
 ## 关注我们
 
 <div align=center>
