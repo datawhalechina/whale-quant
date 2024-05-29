@@ -10,6 +10,9 @@
 ### 在线阅读地址
 [WhaleQuant](https://datawhalechina.github.io/whale-quant/)
 
+### 智海平台学习地址
+[WhaleQuant](https://aiplusx.momodel.cn/classroom/class/664bf1489f8b00ca14e4863e?activeKey=intro)
+
 ## Notebook运行环境配置
 1. Python版本  
    请使用python3.9.X，如使用其他版本，requirements.txt中所列的依赖包可能不兼容。
