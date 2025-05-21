@@ -5,6 +5,8 @@
 </div>
 <br/>
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/datawhalechina/whale-quant)
+
 ## 使用说明
 
 ### 在线阅读地址
